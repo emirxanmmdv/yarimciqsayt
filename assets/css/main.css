@@ -64,4 +64,35 @@ nav ul li .nav_dropdown li {
 }
 nav ul li:hover .nav_dropdown {
   display: block;
+}
+
+#homepage .container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#homepage .container .homeparent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#homepage .container .homeparent .left_homepage .h1 h2 {
+  font-family: "Roboto", sans-serif;
+}
+#homepage .container .homeparent .left_homepage h1 {
+  font-size: 70px;
+  font-weight: 500;
+}
+#homepage .container .homeparent .left_homepage h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+#homepage .container .homeparent .left_homepage .btn_homepage {
+  background: rgb(116, 183, 254);
+  background: linear-gradient(90deg, rgb(116, 183, 254) 0%, rgb(150, 145, 255) 100%);
+  border: 8px solid #b0c1ff;
+  border-width: 6px;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 33px;
 }/*# sourceMappingURL=main.css.map */

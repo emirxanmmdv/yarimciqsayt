@@ -1,42 +1,50 @@
-header{
+header {
     background-image: url(https://preview.colorlib.com/theme/sierra/img/home-slider/slider-bg-1.png.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-    height: 90px; 
+    height: 90px;
     padding: 0px 100px;
-    ul{
+
+    ul {
         display: flex;
         align-items: center;
         gap: 60px;
-        a{
+
+        a {
             color: rgb(255, 255, 255);
             font-family: 'Roboto', sans-serif;
         }
-        .nav_home{
+
+        .nav_home {
             color: black;
 
         }
-        a:hover{
+
+        a:hover {
             color: black;
             transition: 0.5s;
         }
     }
-    img{
+
+    img {
         object-fit: contain;
         width: 120px;
     }
-    ul{
+
+    ul {
 
 
-        li{
+        li {
             position: relative;
             padding: 20px;
-            .nav_dropdown{
+
+            .nav_dropdown {
                 position: absolute;
                 background-color: black;
                 min-height: 200px;
@@ -45,18 +53,62 @@ nav{
                 padding: 30px;
                 left: -50px;
                 top: 50px;
-                li{
+
+                li {
                     margin-bottom: 20px;
                     padding: 0;
                 }
-                
             }
         }
-        li:hover .nav_dropdown{
-            display: block;
-            
 
-        
+        li:hover .nav_dropdown {
+            display: block;
         }
+    }
+}
+
+#homepage {
+    .container {
+        padding-left: 100px;
+        padding-right: 100px;
+
+        .homeparent {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .left_homepage {
+                .h1 h2 {
+                    font-family: 'Roboto', sans-serif;
+                }
+
+                h1 {
+                    font-size: 70px;
+                    font-weight: 500;
+                    
+                }
+
+                h2 {
+                    font-size: 25px;
+                    margin-bottom: 40px;
+                    font-weight: 500;
+                }
+
+                .btn_homepage {
+                    background: rgb(116, 183, 254);
+                    background: linear-gradient(90deg, rgba(116, 183, 254, 1) 0%, rgba(150, 145, 255, 1) 100%);
+                    border: 8px solid #b0c1ff;
+                    border-width: 6px;
+                    color: white;
+
+                    padding: 20px 40px;
+                    border-radius: 33px;
+
+
+                }
+            }
+
+
+        }
+
     }
 }
